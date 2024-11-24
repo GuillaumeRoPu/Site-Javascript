@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="stylesheetIns.css">
+</head>
+<body>
+    <header>
+        <a href="indexHome.html" class="home-link">Home</a>
+    </header>
+    <div class="form-container">
+        <form action="" method="POST" enctype="multipart/form-data" class="myForm active" id="myForm">
+            <div>
+                <h1>S'inscrire</h1>
+            </div>
+            <div>
+                <label for="volpseudo">Pseudonyme : </label> <br>
+                <input type="text" id="pseudo" name="pseudostp" placeholder="Pseudonyme">
+                <div class="error-box" id="errorBox">Entrez un pseudonyme d'au moins 6 caractères.</div>
+            </div>
+            <div>
+                <label for="email">Email : </label> <br>
+                <input type="text" id="email" placeholder="Email">
+                <div class="error-box" id="errorBox2">Entrez un email valide.</div>
+            </div>
+            <div>
+                <label for="password">Mot de passe : </label> <br>
+                <input type="password" id="password" placeholder="Mot de passe">
+                <div class="error-box" id="errorBox3">Le mot de passe doit contenir 10 caractère minimum, une majuscule, une minuscule, un chiffre et un caractère spécial</div>
+            </div>
+            <div>
+                <input type="checkbox" id="termsCheckbox">
+                <label for="termsCheckbox">J'accepte les conditions d'utilisation</label>
+            </div>
+            <button type="submit" id="removeFormButton" disabled>Inscription</button>
+        </form>
+    </div>
+
+    <script src="mainIns.js"></script>
+</body>
+</html>

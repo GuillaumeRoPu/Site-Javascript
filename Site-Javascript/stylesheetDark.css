@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    padding-top: 10vh;
+}
+
+header {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-right: 50px;
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.header-dark {
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+
+.header-light {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+link.darkmode {
+    background-color: black;
+    color: white;
+}
+
+body.darkmode {
+    background-color: black;
+    color: white;
+}
+
+#darkmode-lightmode {
+    display: flex;
+    align-items: center;
+}
+
+#darkmodeToggle {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+#darkmodetext {
+    width: 40%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
